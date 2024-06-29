@@ -1,18 +1,3 @@
-"""
-mt论坛自动签到
-
-支持多用户运行
-添加变量mtluntan
-账号密码用&隔开
-多用户用@隔开
-例如账号1：10086 密码：1001 
-账号1：1234 密码：1234
-则变量为10086&1001@1234&1234
-export mtluntan=""
-
-cron: 0 0,7 * * *
-const $ = new Env("mt论坛");
-"""
 import requests
 import re
 import os
