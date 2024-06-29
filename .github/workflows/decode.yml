@@ -1,7 +1,7 @@
 name: Decode JavaScript File
 
 on:
-  push:
+  update:
     branches:
       - main
 jobs:
