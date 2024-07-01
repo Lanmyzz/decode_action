@@ -1,4 +1,4 @@
-//Mon Jul 01 2024 22:03:32 GMT+0000 (Coordinated Universal Time)
+//Mon Jul 01 2024 22:15:35 GMT+0000 (Coordinated Universal Time)
 //Base:https://github.com/echo094/decode-js
 //Modify:https://github.com/smallfawn/decode_action
 const _0x4c672b = _0x4a9430("中国联通"),
@@ -3982,7 +3982,7 @@ class _0x333e45 extends _0x24046c {
   }
 })().catch(_0x56ffeb => _0x4c672b.log(_0x56ffeb)).finally(() => _0x4c672b.exitNow());
 async function _0x342cb7(_0x1f9ad3 = 0) {
-  let _0x3e3c00 = false;
+  let _0x3e3c00 = true;
   try {
     let _0x3fa48f = {
         fn: "auth",
