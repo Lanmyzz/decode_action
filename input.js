@@ -1,21 +1,3 @@
-/*
-电信十二生肖集卡抽奖（无兑换）
-
-做电信十二生肖集卡活动任务的，兑换需要八点的时候到活动页面去换（正常情况下四五天就能换了）
-
-活动路径：  APP首页--登录后--附近--点击地图--然后下拉营业厅的图标旁边有一个翻卡机会
-
-自己设置电信的服务密码, 把 手机号#服务密码 填到变量里, 多账号&隔开:
-export chinaTelecomAccount="13888888888#123456"
-
-每天运行一次
-
-cron: 33 6 * * *
-const $ = new Env("电信十二生肖");
-*/
-
-
-
 const _d_x_0x5e23 = ['cmV0dXJuIC8iICsgdGhpcyArICIv', 'Q0VmWmM=', 'RHd0SHQ=', 'dXhWdXk=', 'ckt3Y08=', 'Y291bnRlcg==', 'RW5nWWk=', '5L2g5q2j5Zyo6L+Q6KGM', '5Y+R55Sf6ZSZ6K+vOiA=', 'YVpLWkc=', 'Wk5MZXo=', 'WlNGckE=', 'cmVzb2x2ZQ==', 'SXRSdEg=', 'cmFuZG9tQnl0ZXM=', 'UUpJanU=', 'ZGNVbW4=', 'S1ZDRXM=', 'ZlloemY=', 'c1RReXE=', 'SXRiaXA=', 'ZkVBeXk=', 'ZWFFZUg=', 'U0tldnc=', 'aWhCbnA=', 'R1JFRHo=', 'ZkZDSWQ=', 'SW1RS3k=', 'akZpT3M=', 'YkllYk0=', 'SW5PQ3Y=', 'ZXJyb3I=', 'YXBwbHk=', 'b0ZkUmE=', 'ZGVmYXVsdA==', 'c3RkZXJy', 'T2dEcFo=', 'YlhuaXU=', 'Y2FsbA==', 'Y2hpbGRfcHJvY2Vzcw==', 'ZGF0YQ==', 'RWx1WlA=', 'dXBkYXRh', 'Rk52T1c=', 'ZHNLeXc=', 'c3RyaW5n', 'a0hURWQ=', 'bnF3Rks=', 'YmNVcHU=', '55S15L+h5Y2B5LqM55Sf6IKW6ISa5pys', '5aSW6YOo6ISa5pys5omn6KGM5a6M5oiQ', 'am9pbg==', 'Rk9PV1Q=', 'R3JjRkw=', 'ckpaUUU=', 'ZXhpdA==', 'Q0pDZ3E=', 'blJGUEo=', 'd2hpbGUgKHRydWUpIHt9', 'Y3piQnE=', 'c3RhdHVz', 'd3FtdlI=', 'ZnJqZEU=', 'ZGVidQ==', 'WHdrVHA=', 'Z0pkQkw=', '6ISa5pys5bey5YGc55So77yM5pyJ57yY5YaN6KeB', 'cFZvUFQ=', 'Y2xvc2U=', 'V2Znd3I=', 'TmJkaXM=', 'Z290', 'RnVzS0c=', 'eXZZTmQ=', 'bG9n', 'bW9kdWxl', 'eHpwY1Q=', 'UWF4TEY=', 'UFFxYkw=', 'YWN0aW9u', 'am1vd2c=', 'WWxrelM=', 'Z1lIS3g=', 'Z2dlcg==', 'cGlqclQ=', 'aW5pdA==', 'YkZ6TmM=', 'cmZXT1g=', 'R0dvekw=', 'X2luaXRQYXRocw==', 'WHRxano=', 'QkVYZlc=', 'ZW52', 'REdWVGw=', 'Y29uc3RydWN0b3I=', 'bVZqS0U=', 'bERjZms=', 'WFlUU0g=', 'YkNQTkc=', 'Y3Ryb0k=', 'cnZ0SFo=', 'ZnNyQnI=', 'anNvbg==', 'Y2hhaW4=', 'aGFFSlM=', 'Z2dGaGs=', 'S2l5WXY=', 'ekxYc0U=', 'SmR2QXc=', 'RERwZ2k=', 'WlRTYVI=', 'SnV6V3Q=', 'ZnVuY3Rpb24gKlwoICpcKQ==', 'SlVrTHA=', 'd3JpdGVGaWxl', 'XCtcKyAqKD86W2EtekEtWl8kXVswLTlhLXpBLVpfJF0qKQ==', 'emJ2Rng=', 'eXJ5S2U=', 'ZkZrTGk=', 'ckdJSks=', 'Ym9keQ==', 'Rm1GUnE=', 'dG1wZGly', 'UVhIU2w=', 'Sk9hTWk=', 'c011b04=', 'bXhVT0k=', 'Z3NHc2o=', 'Lmpz', 'dGVzdA==', 'TWlBc20=', 'a2xqRlQ=', 'dHJUWmQ=', 'VnJNeFQ=', 'bGVuZ3Ro', 'UGV2WlA=', 'RUNsc1U=', 'c0xLVmg=', 'aW5wdXQ=', 'TFNobUo=', 'Lmpzb24=', 'dG9TdHJpbmc=', 'bm1Tdmw=', 'SmhIYWc=', 'ZUpuT0I=', 'emRlUlI=', 'WXJ1dmY=', 'd3h0eGY=', 'SFBYblk=', 'Z1diRGU=', 'c2ROcWs=', 'bWVzc2FnZQ==', 'd1lBWEw=', 'UkZ5R3k=', 'c3RhY2s=', 'VU56WHU=', 'cHJvbWlzZXM=', 'eHlPSEM=', 'WkZkdnQ=', 'XihbXiBdKyggK1teIF0rKSspK1teIF19', 'S3pHcGc=', 'dHpZeHk=', 'aHR0cDovL2R4c2NyaXB0LnRlc3QudXBjZG4ubmV0Lw==', 'RUtPTnY=', 'RFB2UGU=', 'QURXTkI=', 'RG5uVXc=', 'aklDWGs=', 'bFBXWmY=', 'YnJFa1M=', 'aUZZcVI=', 'Y29tcGlsZQ==', 'cGF0aA==', 'U1ZKb1c=', 'R29Tblg=', 'd0tOVHI=', 'ZXdUT2Q=', 'TW9kdWxl', 'RUFjYWs=', '6Ieq5bex6K6+572u55S15L+h55qE5pyN5Yqh5a+G56CBLCDmioog5omL5py65Y+3I+acjeWKoeWvhueggSDloavliLDlj5jph4/ph4wsIOWkmui0puWPtybpmpTlvIA6IAogZXhwb3J0IGNoaW5hVGVsZWNvbUFjY291bnQ9IjEzODg4ODg4ODg4IzEyMzQ1NiI=', 'dFZCUk0=', 'bm9kZQ==', 'a0hndUY=', 'TFBMbWo=', 'U1RvZkw=', 'bWpRb04='];
 (function(_0x375c50, _0x5e2365) {
     const _0x2349dc = function(_0x51132f) {
